@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8019230416673248405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7035156823262890165}
+  - component: {fileID: 114113477732026410}
+  - component: {fileID: 8294720305496924644}
+  - component: {fileID: 193405185773844003}
+  m_Layer: 0
+  m_Name: Teset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7035156823262890165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019230416673248405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5606396742111997462}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114113477732026410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019230416673248405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc5150e51d37e7469c91e38a0f1ce89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  field_names:
+  - test
+  hud_components:
+  - {fileID: 5081099353266293621}
+  mesh_filter: {fileID: 8294720305496924644}
+  mesh_renderer: {fileID: 193405185773844003}
+--- !u!33 &8294720305496924644
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019230416673248405}
+  m_Mesh: {fileID: 0}
+--- !u!23 &193405185773844003
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019230416673248405}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4752ef667f5aa134b8a755d18dcc0ea5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8569237302306358996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5606396742111997462}
+  - component: {fileID: 5081099353266293621}
+  m_Layer: 0
+  m_Name: components
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5606396742111997462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569237302306358996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7035156823262890165}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5081099353266293621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569237302306358996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77ee9356dd57f24196e3e28106b46e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+    is_text: 1
+    local_position:
+      x: 0
+      y: 0
+      z: 0
+    local_scale:
+      x: 1
+      y: 1
+      z: 1
+    gscale: 1
+    spacing: 0
+    uv0_rect:
+    - x: 336
+      y: 5
+      z: 58
+      w: 56
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    tparams:
+    - x: 56.703125
+      y: 55.109375
+      z: 4.859375
+      w: 49.984375
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    - x: 0
+      y: 0
+      z: 0
+      w: 0
+    sizes:
+    - x: 64
+      y: 0
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    - x: 1
+      y: 1
+    color:
+      serializedVersion: 2
+      rgba: 4294967295
+    valid_quad: 1
+    progress_value: 1
+  _content: "\u563F"
